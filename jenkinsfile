@@ -1,5 +1,4 @@
 #!usr/bin/env groovy
-#this jenkins file to automate build
 pipeline {
     agent any
     triggers { pollSCM('* * * * *')}
